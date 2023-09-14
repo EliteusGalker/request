@@ -1,10 +1,19 @@
 import time
+import request
+
+def piszFormalneZI(input_dict):
+    print("pisze do CIEBIE doit xdd")
+    print("print rób kurwa")
+    print(input_dict.get('input 1'))
+    
 
 
-def join_inputs(email, znak, numer, umowa, room):
-    # Use the 'join' method to concatenate the inputs into a single string
-    result = ''.join([email, znak, numer, umowa, room])
-    time.sleep(2)
-    print("xd")
-    time.sleep(3)
-    return result
+
+
+
+
+
+if __name__ == '__main__':
+    piszFormalneZI()
+
+
